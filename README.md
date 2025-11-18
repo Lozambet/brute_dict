@@ -34,11 +34,11 @@ Requirements
 - No external libraries
 
 Run:
-```powershell
-git clone https://Lo_zambet/brute_dict
+````powershell
+git clone https://github.com/Lozambet/brute_dict.git
 cd brute_dict
 python main.py
-```
+````
 The flow is a multiple choice menu, very interactive and intuitive to use
 
 after that you can run
@@ -75,3 +75,4 @@ Flow (interactive):
 Output:
 
 - `output.txt` — one password per line, plain text, no numbering.
+
