@@ -1,4 +1,4 @@
-# Brute_dict — Editorial Password Generator
+# Brute_dict: Bruteforce dictionary generator
 
 A small Python tool to generate bruteforce password lists from a person's first name, last name, nicknames, surname variants, numbers and symbols. Output is human-readable, numbered, and printed to the console.
 
@@ -44,12 +44,12 @@ The flow is a multiple choice menu, very interactive and intuitive to use
 after that you can run
 
 ```powershell
-start outup.txt
+start outuput.txt
 ```
 to open output result, or:
 
 ```powershell
-cat outup.txt
+cat outuput.txt
 ```
 to just read it into the powershell
 
@@ -73,4 +73,5 @@ Flow (interactive):
 5. On completion you get a final highlighted box with the total saved and the full path.
 
 Output:
+
 - `output.txt` — one password per line, plain text, no numbering.
